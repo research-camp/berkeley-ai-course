@@ -1,0 +1,2440 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{color,pxfonts,fix-cm}
+\usepackage{latexsym}
+\usepackage[mathletters]{ucs}
+\DeclareUnicodeCharacter{32}{$\ $}
+\DeclareUnicodeCharacter{46}{\textperiodcentered}
+\DeclareUnicodeCharacter{58}{$\colon$}
+\DeclareUnicodeCharacter{62}{\textgreater}
+\DeclareUnicodeCharacter{8211}{\textendash}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{pict2e}
+\usepackage{wasysym}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\pagestyle{empty}
+\usepackage[margin=0in,paperwidth=792pt,paperheight=612pt]{geometry}
+\begin{document}
+\definecolor{color_255133}{rgb}{0.909804,0.298039,0.133333}
+\definecolor{color_283006}{rgb}{1,1,1}
+\definecolor{color_29791}{rgb}{0,0,0}
+\definecolor{color_277009}{rgb}{0.980392,0.854902,0.823529}
+\definecolor{color_145247}{rgb}{0.466667,0.137255,0.047059}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(55.56pt, -92.5pt) -- (706.54pt, -92.5pt)
+ -- (706.54pt, -92.5pt)
+ -- (706.54pt, -70.06pt)
+ -- (706.54pt, -70.06pt)
+ -- (55.56pt, -70.06pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(61.788,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}N}
+\put(72.81636,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}F}
+\put(80.84424,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}O}
+\put(92.22372,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(101.5603,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}M}
+\put(115.9403,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}E}
+\put(124.5587,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}D}
+\put(135.1082,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\put(139.5291,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(147.557,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}E}
+\put(156.0637,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}A}
+\put(166.1345,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(175.5987,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(184.8236,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}H}
+\put(195.86,-85.17999){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(52.56pt, -70.06pt) -- (55.56pt, -70.06pt)
+ -- (55.56pt, -70.06pt)
+ -- (55.56pt, -67.06pt)
+ -- (55.56pt, -67.06pt)
+ -- (52.56pt, -67.06pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -70.06pt) -- (55.56pt, -70.06pt)
+ -- (55.56pt, -70.06pt)
+ -- (55.56pt, -67.06pt)
+ -- (55.56pt, -67.06pt)
+ -- (52.56pt, -67.06pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -70.06pt) -- (706.54pt, -70.06pt)
+ -- (706.54pt, -70.06pt)
+ -- (706.54pt, -67.06pt)
+ -- (706.54pt, -67.06pt)
+ -- (55.56pt, -67.06pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -70.06pt) -- (709.54pt, -70.06pt)
+ -- (709.54pt, -70.06pt)
+ -- (709.54pt, -67.06pt)
+ -- (709.54pt, -67.06pt)
+ -- (706.54pt, -67.06pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -70.06pt) -- (709.54pt, -70.06pt)
+ -- (709.54pt, -70.06pt)
+ -- (709.54pt, -67.06pt)
+ -- (709.54pt, -67.06pt)
+ -- (706.54pt, -67.06pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -95.5pt) -- (55.56pt, -95.5pt)
+ -- (55.56pt, -95.5pt)
+ -- (55.56pt, -92.5pt)
+ -- (55.56pt, -92.5pt)
+ -- (52.56pt, -92.5pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -95.5pt) -- (55.56pt, -95.5pt)
+ -- (55.56pt, -95.5pt)
+ -- (55.56pt, -92.5pt)
+ -- (55.56pt, -92.5pt)
+ -- (52.56pt, -92.5pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -95.5pt) -- (706.54pt, -95.5pt)
+ -- (706.54pt, -95.5pt)
+ -- (706.54pt, -92.5pt)
+ -- (706.54pt, -92.5pt)
+ -- (55.56pt, -92.5pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -95.5pt) -- (709.54pt, -95.5pt)
+ -- (709.54pt, -95.5pt)
+ -- (709.54pt, -92.5pt)
+ -- (709.54pt, -92.5pt)
+ -- (706.54pt, -92.5pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -95.5pt) -- (709.54pt, -95.5pt)
+ -- (709.54pt, -95.5pt)
+ -- (709.54pt, -92.5pt)
+ -- (709.54pt, -92.5pt)
+ -- (706.54pt, -92.5pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -92.5pt) -- (55.56pt, -92.5pt)
+ -- (55.56pt, -92.5pt)
+ -- (55.56pt, -70.06pt)
+ -- (55.56pt, -70.06pt)
+ -- (52.56pt, -70.06pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -92.5pt) -- (709.54pt, -92.5pt)
+ -- (709.54pt, -92.5pt)
+ -- (709.54pt, -70.06pt)
+ -- (709.54pt, -70.06pt)
+ -- (706.54pt, -70.06pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-115.78){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Heurist}
+\put(140.1658,-115.78){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(143.8685,-115.78){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cs}
+\put(156.98,-115.78){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-148.18){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Gre}
+\put(116.545,-148.18){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ed}
+\put(132.9679,-148.18){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y se}
+\put(157.9293,-148.18){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}a}
+\put(165.7178,-148.18){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(171.24,-148.18){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ch}
+\put(186.5,-148.18){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-180.73){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A* se}
+\put(127.9405,-180.73){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}a}
+\put(135.729,-180.73){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(141.2511,-180.73){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ch}
+\put(156.5,-180.73){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-213.13){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Graph sea}
+\put(158.6475,-213.13){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(164.1697,-213.13){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ch}
+\put(179.42,-213.13){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-245.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(55.56pt, -288.27pt) -- (706.54pt, -288.27pt)
+ -- (706.54pt, -288.27pt)
+ -- (706.54pt, -265.806pt)
+ -- (706.54pt, -265.806pt)
+ -- (55.56pt, -265.806pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(65.50668,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H}
+\put(76.16796,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(84.67464,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(89.09556,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}O}
+\put(100.3633,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}N}
+\put(111.5034,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(120.0101,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(124.431,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Q}
+\put(135.9382,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}U}
+\put(146.8388,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(155.4572,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}U}
+\put(166.3579,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(175.22,-281.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(52.56pt, -265.81pt) -- (55.56pt, -265.81pt)
+ -- (55.56pt, -265.81pt)
+ -- (55.56pt, -262.81pt)
+ -- (55.56pt, -262.81pt)
+ -- (52.56pt, -262.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -265.81pt) -- (55.56pt, -265.81pt)
+ -- (55.56pt, -265.81pt)
+ -- (55.56pt, -262.81pt)
+ -- (55.56pt, -262.81pt)
+ -- (52.56pt, -262.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -265.81pt) -- (706.54pt, -265.81pt)
+ -- (706.54pt, -265.81pt)
+ -- (706.54pt, -262.81pt)
+ -- (706.54pt, -262.81pt)
+ -- (55.56pt, -262.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -265.81pt) -- (709.54pt, -265.81pt)
+ -- (709.54pt, -265.81pt)
+ -- (709.54pt, -262.81pt)
+ -- (709.54pt, -262.81pt)
+ -- (706.54pt, -262.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -265.81pt) -- (709.54pt, -265.81pt)
+ -- (709.54pt, -265.81pt)
+ -- (709.54pt, -262.81pt)
+ -- (709.54pt, -262.81pt)
+ -- (706.54pt, -262.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -291.27pt) -- (55.56pt, -291.27pt)
+ -- (55.56pt, -291.27pt)
+ -- (55.56pt, -288.27pt)
+ -- (55.56pt, -288.27pt)
+ -- (52.56pt, -288.27pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -291.27pt) -- (55.56pt, -291.27pt)
+ -- (55.56pt, -291.27pt)
+ -- (55.56pt, -288.27pt)
+ -- (55.56pt, -288.27pt)
+ -- (52.56pt, -288.27pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -291.27pt) -- (706.54pt, -291.27pt)
+ -- (706.54pt, -291.27pt)
+ -- (706.54pt, -288.27pt)
+ -- (706.54pt, -288.27pt)
+ -- (55.56pt, -288.27pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -291.27pt) -- (709.54pt, -291.27pt)
+ -- (709.54pt, -291.27pt)
+ -- (709.54pt, -288.27pt)
+ -- (709.54pt, -288.27pt)
+ -- (706.54pt, -288.27pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -291.27pt) -- (709.54pt, -291.27pt)
+ -- (709.54pt, -291.27pt)
+ -- (709.54pt, -288.27pt)
+ -- (709.54pt, -288.27pt)
+ -- (706.54pt, -288.27pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -288.27pt) -- (55.56pt, -288.27pt)
+ -- (55.56pt, -288.27pt)
+ -- (55.56pt, -265.806pt)
+ -- (55.56pt, -265.806pt)
+ -- (52.56pt, -265.806pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -288.27pt) -- (709.54pt, -288.27pt)
+ -- (709.54pt, -288.27pt)
+ -- (709.54pt, -265.806pt)
+ -- (709.54pt, -265.806pt)
+ -- (706.54pt, -265.806pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}We}
+\put(115.0927,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} onl}
+\put(139.1923,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y}
+\put(146.502,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} chang}
+\put(188.8438,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e th}
+\put(214.2681,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e strat}
+\put(256.0195,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}egy of c}
+\put(306.0381,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}hoo}
+\put(331.3347,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}si}
+\put(341.2778,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ng}
+\put(357.2219,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} nodes for }
+\put(426.3287,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}exp}
+\put(449.7101,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}an}
+\put(465.7818,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}si}
+\put(475.7249,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}on.}
+\put(496.5846,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} Ever}
+\put(528.6323,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ythi}
+\put(553.3383,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ng}
+\put(569.41,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} sta}
+\put(592.3126,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ys the sam}
+\put(661.4194,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e in }
+\put(688.7589,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}al}
+\put(700.1384,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(703.8411,-311.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-333.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}solu}
+\put(119.769,-333.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(125.1475,-333.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(128.8502,-333.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ons.}
+\put(156.02,-333.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-366.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(55.56pt, -409.14pt) -- (706.54pt, -409.14pt)
+ -- (706.54pt, -409.14pt)
+ -- (706.54pt, -386.676pt)
+ -- (706.54pt, -386.676pt)
+ -- (55.56pt, -386.676pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}U}
+\put(67.90068,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}N}
+\put(78.92904,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(83.71704,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}F}
+\put(91.85664,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}O}
+\put(103.2361,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(112.5727,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}M}
+\put(126.9527,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\put(131.3736,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(140.5985,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}O}
+\put(151.978,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(160.0058,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}T}
+\put(168.5125,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\put(172.9334,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(180.9613,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}E}
+\put(189.468,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}A}
+\put(199.5388,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(208.8754,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(218.2119,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}H}
+\put(229.34,-401.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(52.56pt, -386.67pt) -- (55.56pt, -386.67pt)
+ -- (55.56pt, -386.67pt)
+ -- (55.56pt, -383.67pt)
+ -- (55.56pt, -383.67pt)
+ -- (52.56pt, -383.67pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -386.67pt) -- (55.56pt, -386.67pt)
+ -- (55.56pt, -386.67pt)
+ -- (55.56pt, -383.67pt)
+ -- (55.56pt, -383.67pt)
+ -- (52.56pt, -383.67pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -386.67pt) -- (706.54pt, -386.67pt)
+ -- (706.54pt, -386.67pt)
+ -- (706.54pt, -383.67pt)
+ -- (706.54pt, -383.67pt)
+ -- (55.56pt, -383.67pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -386.67pt) -- (709.54pt, -386.67pt)
+ -- (709.54pt, -386.67pt)
+ -- (709.54pt, -383.67pt)
+ -- (709.54pt, -383.67pt)
+ -- (706.54pt, -383.67pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -386.67pt) -- (709.54pt, -386.67pt)
+ -- (709.54pt, -386.67pt)
+ -- (709.54pt, -383.67pt)
+ -- (709.54pt, -383.67pt)
+ -- (706.54pt, -383.67pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -412.14pt) -- (55.56pt, -412.14pt)
+ -- (55.56pt, -412.14pt)
+ -- (55.56pt, -409.14pt)
+ -- (55.56pt, -409.14pt)
+ -- (52.56pt, -409.14pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -412.14pt) -- (55.56pt, -412.14pt)
+ -- (55.56pt, -412.14pt)
+ -- (55.56pt, -409.14pt)
+ -- (55.56pt, -409.14pt)
+ -- (52.56pt, -409.14pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -412.14pt) -- (706.54pt, -412.14pt)
+ -- (706.54pt, -412.14pt)
+ -- (706.54pt, -409.14pt)
+ -- (706.54pt, -409.14pt)
+ -- (55.56pt, -409.14pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -412.14pt) -- (709.54pt, -412.14pt)
+ -- (709.54pt, -412.14pt)
+ -- (709.54pt, -409.14pt)
+ -- (709.54pt, -409.14pt)
+ -- (706.54pt, -409.14pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -412.14pt) -- (709.54pt, -412.14pt)
+ -- (709.54pt, -412.14pt)
+ -- (709.54pt, -409.14pt)
+ -- (709.54pt, -409.14pt)
+ -- (706.54pt, -409.14pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -409.14pt) -- (55.56pt, -409.14pt)
+ -- (55.56pt, -409.14pt)
+ -- (55.56pt, -386.676pt)
+ -- (55.56pt, -386.676pt)
+ -- (52.56pt, -386.676pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -409.14pt) -- (709.54pt, -409.14pt)
+ -- (709.54pt, -409.14pt)
+ -- (709.54pt, -386.676pt)
+ -- (709.54pt, -386.676pt)
+ -- (706.54pt, -386.676pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Strat}
+\put(124.3176,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}egy: exp}
+\put(178.1826,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}an}
+\put(194.2543,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d l}
+\put(209.9589,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}owe}
+\put(237.6814,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(249.3003,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} pa}
+\put(268.963,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(274.3415,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h co}
+\put(301.5693,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(313.1881,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}.}
+\put(317.45,-432.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}US}
+\put(110.5441,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C i}
+\put(126.3604,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s c}
+\put(143.0227,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}omplet}
+\put(189.562,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e}
+\put(197.54,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(201.14,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}a}
+\put(208.9285,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}nd opt}
+\put(251.5098,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(255.2125,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mal}
+\put(279.3121,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} but}
+\put(305.1035,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} it}
+\put(317.8076,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} sear}
+\put(348.77,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ch in}
+\put(379.5888,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} e}
+\put(391.2076,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ve}
+\put(406.4335,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(411.9556,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y dir}
+\put(440.4921,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e}
+\put(448.52,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cti}
+\put(464.3364,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}on!}
+\put(486.55,-464.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}No in}
+\put(127.4457,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}f}
+\put(132.3454,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}or}
+\put(146.2625,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mat}
+\put(172.0539,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(175.7566,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}on ab}
+\put(212.3369,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}out}
+\put(234.5213,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} where g}
+\put(290.541,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}oal}
+\put(310.3314,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} is.}
+\put(328.13,-497.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(55.56pt, -87.46002pt) -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(65.02788,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(73.53456,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(83.60532,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(92.94193,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C}
+\put(102.2785,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H}
+\put(112.9398,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(117.249,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H}
+\put(128.038,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(136.6564,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}U}
+\put(147.557,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(156.8936,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(161.7934,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(169.8212,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(178.4396,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(183.2276,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C}
+\put(192.4525,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(200.9,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -65.02002pt) -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -90.45999pt) -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -87.46002pt) -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (52.56pt, -65.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -87.46002pt) -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A fu}
+\put(119.1625,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ncti}
+\put(143.3898,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}on t}
+\put(169.1811,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ha}
+\put(185.2528,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(190.6314,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} esti}
+\put(217.492,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mat}
+\put(243.2834,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}es how }
+\put(292.9509,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}close }
+\put(329.6589,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}a st}
+\put(352.5615,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}at}
+\put(365.6327,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e is t}
+\put(396.1004,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}o a g}
+\put(426.9191,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}oal}
+\put(446.7095,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}.}
+\put(450.91,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Desig}
+\put(128.2916,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ned f}
+\put(161.5203,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}or}
+\put(175.4374,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} a pa}
+\put(206.4956,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(212.1135,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(217.4921,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(221.1948,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cula}
+\put(247.7043,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(253.2265,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} sear}
+\put(284.1889,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ch p}
+\put(311.4166,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(316.9388,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ob}
+\put(333.8404,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(337.5432,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}em}
+\put(358.1794,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}.}
+\put(362.45,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(55.56pt, -218.41pt) -- (706.54pt, -218.41pt)
+ -- (706.54pt, -218.41pt)
+ -- (706.54pt, -195.85pt)
+ -- (706.54pt, -195.85pt)
+ -- (55.56pt, -195.85pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}G}
+\put(67.78896,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(77.12556,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(85.74397,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(94.25064,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}D}
+\put(104.8002,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Y}
+\put(113.4186,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(117.7278,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(125.8674,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(134.3741,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(144.4448,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(153.7814,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C}
+\put(163.0063,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H}
+\put(173.7953,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(178.46,-211.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(52.56pt, -195.85pt) -- (55.56pt, -195.85pt)
+ -- (55.56pt, -195.85pt)
+ -- (55.56pt, -192.85pt)
+ -- (55.56pt, -192.85pt)
+ -- (52.56pt, -192.85pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -195.85pt) -- (55.56pt, -195.85pt)
+ -- (55.56pt, -195.85pt)
+ -- (55.56pt, -192.85pt)
+ -- (55.56pt, -192.85pt)
+ -- (52.56pt, -192.85pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -195.85pt) -- (706.54pt, -195.85pt)
+ -- (706.54pt, -195.85pt)
+ -- (706.54pt, -192.85pt)
+ -- (706.54pt, -192.85pt)
+ -- (55.56pt, -192.85pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -195.85pt) -- (709.54pt, -195.85pt)
+ -- (709.54pt, -195.85pt)
+ -- (709.54pt, -192.85pt)
+ -- (709.54pt, -192.85pt)
+ -- (706.54pt, -192.85pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -195.85pt) -- (709.54pt, -195.85pt)
+ -- (709.54pt, -195.85pt)
+ -- (709.54pt, -192.85pt)
+ -- (709.54pt, -192.85pt)
+ -- (706.54pt, -192.85pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -221.41pt) -- (55.56pt, -221.41pt)
+ -- (55.56pt, -221.41pt)
+ -- (55.56pt, -218.41pt)
+ -- (55.56pt, -218.41pt)
+ -- (52.56pt, -218.41pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -221.41pt) -- (55.56pt, -221.41pt)
+ -- (55.56pt, -221.41pt)
+ -- (55.56pt, -218.41pt)
+ -- (55.56pt, -218.41pt)
+ -- (52.56pt, -218.41pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -221.41pt) -- (706.54pt, -221.41pt)
+ -- (706.54pt, -221.41pt)
+ -- (706.54pt, -218.41pt)
+ -- (706.54pt, -218.41pt)
+ -- (55.56pt, -218.41pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -221.41pt) -- (709.54pt, -221.41pt)
+ -- (709.54pt, -221.41pt)
+ -- (709.54pt, -218.41pt)
+ -- (709.54pt, -218.41pt)
+ -- (706.54pt, -218.41pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -221.41pt) -- (709.54pt, -221.41pt)
+ -- (709.54pt, -221.41pt)
+ -- (709.54pt, -218.41pt)
+ -- (709.54pt, -218.41pt)
+ -- (706.54pt, -218.41pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -218.41pt) -- (55.56pt, -218.41pt)
+ -- (55.56pt, -218.41pt)
+ -- (55.56pt, -195.85pt)
+ -- (55.56pt, -195.85pt)
+ -- (52.56pt, -195.85pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -218.41pt) -- (709.54pt, -218.41pt)
+ -- (709.54pt, -218.41pt)
+ -- (709.54pt, -195.85pt)
+ -- (709.54pt, -195.85pt)
+ -- (706.54pt, -195.85pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Onl}
+\put(115.6832,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y usin}
+\put(153.2211,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}g H}
+\put(174.3202,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}eur}
+\put(196.1535,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(199.8562,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(211.4751,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(215.1778,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c to f}
+\put(247.8,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(251.5028,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}nd t}
+\put(277.2941,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}he pat}
+\put(318.6784,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h.}
+\put(331.37,-241.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(97.0898,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(102.4683,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} co}
+\put(121.1894,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ul}
+\put(133.2871,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d be non}
+\put(190.46,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}-}
+\put(195.38,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}op}
+\put(212.2816,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(217.6602,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(221.3629,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mal}
+\put(245.4625,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}.}
+\put(249.5323,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(253.13,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Strat}
+\put(124.3176,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}egy: exp}
+\put(178.1826,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}an}
+\put(194.2543,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d a}
+\put(213.917,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} node th}
+\put(268.0214,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}at}
+\put(281.0926,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} you thi}
+\put(329.9142,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}nk is clos}
+\put(387.865,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}est t}
+\put(416.4015,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}o a g}
+\put(447.2202,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}oal}
+\put(467.0106,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} sta}
+\put(489.9132,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(495.2917,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e}
+\put(503.47,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Heurist}
+\put(140.1658,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(143.8685,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c: esti}
+\put(181.7735,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mat}
+\put(207.5649,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e of di}
+\put(248.1033,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(259.7222,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}an}
+\put(275.7939,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ce}
+\put(290.4292,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} to n}
+\put(319.8116,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ea}
+\put(335.5162,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(341.0384,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}est g}
+\put(371.7454,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}oal}
+\put(391.5358,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} for e}
+\put(425.4987,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}a}
+\put(433.2872,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ch }
+\put(452.104,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(463.7229,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}at}
+\put(476.7941,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e}
+\put(484.99,-339.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(97.0898,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(102.4683,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} co}
+\put(121.1894,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ul}
+\put(133.2871,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d be as b}
+\put(191.1102,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ad}
+\put(207.1819,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(210.8846,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}as D}
+\put(238.2241,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}FS}
+\put(253.13,-371.43){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-403.98){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-436.38){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-468.9){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-501.3){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(55.56pt, -87.46002pt) -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}A}
+\put(66.94308,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}*}
+\put(75.56148,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\put(79.9824,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(88.01028,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}E}
+\put(96.62868,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}A}
+\put(106.5718,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(116.036,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(125.2609,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}H}
+\put(136.22,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -65.02002pt) -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -90.45999pt) -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -87.46002pt) -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (52.56pt, -65.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -87.46002pt) -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Combin}
+\put(143.1663,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(146.869,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ng}
+\put(162.8131,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} U}
+\put(176.6185,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}CS an}
+\put(212.2412,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d Gre}
+\put(247.8639,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}edy}
+\put(271.61,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Unif}
+\put(120.2478,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}or}
+\put(134.1649,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}m}
+\put(146.9,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}-}
+\put(151.82,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c}
+\put(158.6509,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ost o}
+\put(190.7943,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(196.3165,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}de}
+\put(212.7393,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(218.2615,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s by pat}
+\put(268.7589,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h }
+\put(280.8566,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cost, o}
+\put(323.6773,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(329.33,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(333.05,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ba}
+\put(349.1217,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ck}
+\put(363.0388,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}wa}
+\put(382.2227,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(387.7449,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d c}
+\put(406.5617,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ost.}
+\put(430.75,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(434.35,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}( g(}
+\put(455.2097,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}n) )}
+\put(476.95,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Gre}
+\put(116.545,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ed}
+\put(132.9679,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y o}
+\put(152.2795,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(157.8016,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}de}
+\put(174.2245,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(179.7466,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s by }
+\put(208.8896,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}goa}
+\put(232.5104,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d proxi}
+\put(277.5016,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mit}
+\put(299.319,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y,}
+\put(310.475,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} o}
+\put(322.5727,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(328.1906,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} forward}
+\put(383.7314,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} co}
+\put(402.4525,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(414.0714,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}.}
+\put(418.39,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(421.99,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}( h}
+\put(438.8916,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(}
+\put(443.7914,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}n) )}
+\put(465.55,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A* se}
+\put(127.9405,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}a}
+\put(135.729,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(141.2511,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ch o}
+\put(168.4789,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(174.001,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}de}
+\put(190.4239,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(195.946,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s b}
+\put(214.2841,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y the sum: f}
+\put(290.5888,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(n}
+\put(303.8995,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}) =}
+\put(320.3223,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} g(}
+\put(336.394,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}n) +}
+\put(361.1161,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} h}
+\put(373.2138,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(n)}
+\put(391.49,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(97.0898,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(102.4683,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} is complet}
+\put(172.8998,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e but}
+\put(206.6073,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} it}
+\put(219.3115,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} co}
+\put(238.0326,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ul}
+\put(250.1302,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d be non}
+\put(307.37,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}-}
+\put(312.29,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}o}
+\put(320.7967,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}pt}
+\put(334.5861,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(338.2888,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mal}
+\put(362.3885,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} ba}
+\put(382.0512,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}sed on th}
+\put(442.3959,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e }
+\put(454.0148,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}heurist}
+\put(499.5966,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(503.2993,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c tha}
+\put(535.0756,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(540.4542,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} we }
+\put(566.9797,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d}
+\put(575.4863,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}efi}
+\put(592.0369,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ne.}
+\put(612.7,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}We}
+\put(115.0927,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} n}
+\put(127.1904,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ee}
+\put(143.0227,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d e}
+\put(163.0525,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(174.6714,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(178.3741,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mat}
+\put(204.1655,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}es to be less t}
+\put(292.3445,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ha}
+\put(308.4162,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}n a}
+\put(328.2066,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ctua}
+\put(356.3919,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(360.0947,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} c}
+\put(370.61,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}osts.}
+\put(400.99,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}A}
+\put(66.94308,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}D}
+\put(77.49264,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}M}
+\put(91.8726,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}I}
+\put(96.6606,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}S}
+\put(104.8002,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}S}
+\put(112.8281,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}I}
+\put(117.6161,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}B}
+\put(126.9527,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}I}
+\put(131.8524,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}L}
+\put(139.2738,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}I}
+\put(144.0618,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}T}
+\put(152.5685,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}Y}
+\put(161.42,-345.63){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(55.56pt, -328.47pt) -- (706.54pt, -328.47pt)
+ -- (706.54pt, -328.47pt)
+ -- (706.54pt, -327.75pt)
+ -- (706.54pt, -327.75pt)
+ -- (55.56pt, -327.75pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Heurist}
+\put(140.1658,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(143.8685,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c slow do}
+\put(204.4527,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}wn ba}
+\put(243.9218,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d pl}
+\put(268.0214,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}an}
+\put(284.0931,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s but}
+\put(316.1248,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} neve}
+\put(351.157,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(356.7749,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} out}
+\put(382.5663,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}weig}
+\put(413.1456,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h t}
+\put(430.5261,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(436.144,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ue co}
+\put(471.1762,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(482.795,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s}
+\put(489.43,-373.23){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}I}
+\put(61.788,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}N}
+\put(72.81636,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}A}
+\put(82.75944,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}D}
+\put(93.309,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}M}
+\put(107.689,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}I}
+\put(112.477,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}S}
+\put(120.6166,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}S}
+\put(128.6444,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}I}
+\put(133.5442,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}B}
+\put(142.8808,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}L}
+\put(150.3022,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247}E}
+\put(158.9205,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247} }
+\put(163.58,-413.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_145247} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(55.56pt, -396.18pt) -- (706.54pt, -396.18pt)
+ -- (706.54pt, -396.18pt)
+ -- (706.54pt, -395.46pt)
+ -- (706.54pt, -395.46pt)
+ -- (55.56pt, -395.46pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Heurist}
+\put(140.1658,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(143.8685,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c br}
+\put(168.1118,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ea}
+\put(183.8164,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}k}
+\put(191.0144,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} op}
+\put(211.523,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(216.9015,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(220.6042,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mal}
+\put(244.7038,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(248.4066,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(253.7851,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y by }
+\put(283.7899,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(289.1684,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(294.6905,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ap}
+\put(310.7622,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}pi}
+\put(322.8599,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}n}
+\put(331.1432,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}g g}
+\put(349.8483,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ood pl}
+\put(390.7538,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}an}
+\put(406.8255,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s on t}
+\put(442.4482,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h}
+\put(450.9549,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e fring}
+\put(492.5786,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e}
+\put(500.83,-440.94){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-473.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-505.88){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(55.56pt, -87.46002pt) -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(66.94308,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}D}
+\put(77.49264,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}M}
+\put(91.8726,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(96.6606,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(104.8002,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(112.8281,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(117.6161,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}B}
+\put(127.0804,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}L}
+\put(134.5018,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(143.1201,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(147.4294,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H}
+\put(158.0906,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(166.709,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}U}
+\put(177.7374,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(187.074,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(191.862,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(199.8899,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(208.3965,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(213.1845,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C}
+\put(222.86,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(231.02,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -65.02002pt) -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -90.45999pt) -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -87.46002pt) -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (52.56pt, -65.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -87.46002pt) -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A heurist}
+\put(151.4496,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(155.1523,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c h is a}
+\put(198.6911,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d}
+\put(207.1978,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}missi}
+\put(239.8201,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bl}
+\put(251.9178,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e (}
+\put(268.2448,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}opt}
+\put(290.4292,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(294.132,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mist}
+\put(322.1896,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(325.8924,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c)}
+\put(337.4155,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} if}
+\put(349.6409,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}:}
+\put(354.17,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}0}
+\put(101.0638,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} <}
+\put(112.6827,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}= h(}
+\put(137.4048,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}n}
+\put(145.9114,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}) <}
+\put(162.3343,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}= h*}
+\put(190.2802,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(n)}
+\put(208.46,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Whe}
+\put(123.5993,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(129.1215,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e h*}
+\put(157.0675,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(}
+\put(161.9,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}n)}
+\put(175.2106,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} is t}
+\put(197.7621,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}he}
+\put(214.185,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} true c}
+\put(255.4416,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ost t}
+\put(284.4728,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}o a nea}
+\put(331.858,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(337.3802,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}est g}
+\put(368.0872,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}oal}
+\put(388.01,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(55.56pt, -250.81pt) -- (706.54pt, -250.81pt)
+ -- (706.54pt, -250.81pt)
+ -- (706.54pt, -228.37pt)
+ -- (706.54pt, -228.37pt)
+ -- (55.56pt, -228.37pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}O}
+\put(68.26776,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}P}
+\put(77.25324,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(85.75992,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(90.54792,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}M}
+\put(104.9279,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(114.9986,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}L}
+\put(122.42,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(127.208,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(135.7147,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Y}
+\put(144.2214,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(148.6423,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}O}
+\put(159.9101,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}F}
+\put(168.0497,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(172.4706,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(182.4137,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}*}
+\put(191.0321,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(195.453,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(203.9597,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(213.424,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(222.26,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(230.7667,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(235.1876,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(243.2155,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(251.8339,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(261.777,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(271.2413,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C}
+\put(280.4662,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H}
+\put(291.41,-243.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(52.56pt, -228.37pt) -- (55.56pt, -228.37pt)
+ -- (55.56pt, -228.37pt)
+ -- (55.56pt, -225.37pt)
+ -- (55.56pt, -225.37pt)
+ -- (52.56pt, -225.37pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -228.37pt) -- (55.56pt, -228.37pt)
+ -- (55.56pt, -228.37pt)
+ -- (55.56pt, -225.37pt)
+ -- (55.56pt, -225.37pt)
+ -- (52.56pt, -225.37pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -228.37pt) -- (706.54pt, -228.37pt)
+ -- (706.54pt, -228.37pt)
+ -- (706.54pt, -225.37pt)
+ -- (706.54pt, -225.37pt)
+ -- (55.56pt, -225.37pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -228.37pt) -- (709.54pt, -228.37pt)
+ -- (709.54pt, -228.37pt)
+ -- (709.54pt, -225.37pt)
+ -- (709.54pt, -225.37pt)
+ -- (706.54pt, -225.37pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -228.37pt) -- (709.54pt, -228.37pt)
+ -- (709.54pt, -228.37pt)
+ -- (709.54pt, -225.37pt)
+ -- (709.54pt, -225.37pt)
+ -- (706.54pt, -225.37pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -253.81pt) -- (55.56pt, -253.81pt)
+ -- (55.56pt, -253.81pt)
+ -- (55.56pt, -250.81pt)
+ -- (55.56pt, -250.81pt)
+ -- (52.56pt, -250.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -253.81pt) -- (55.56pt, -253.81pt)
+ -- (55.56pt, -253.81pt)
+ -- (55.56pt, -250.81pt)
+ -- (55.56pt, -250.81pt)
+ -- (52.56pt, -250.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -253.81pt) -- (706.54pt, -253.81pt)
+ -- (706.54pt, -253.81pt)
+ -- (706.54pt, -250.81pt)
+ -- (706.54pt, -250.81pt)
+ -- (55.56pt, -250.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -253.81pt) -- (709.54pt, -253.81pt)
+ -- (709.54pt, -253.81pt)
+ -- (709.54pt, -250.81pt)
+ -- (709.54pt, -250.81pt)
+ -- (706.54pt, -250.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -253.81pt) -- (709.54pt, -253.81pt)
+ -- (709.54pt, -253.81pt)
+ -- (709.54pt, -250.81pt)
+ -- (709.54pt, -250.81pt)
+ -- (706.54pt, -250.81pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -250.81pt) -- (55.56pt, -250.81pt)
+ -- (55.56pt, -250.81pt)
+ -- (55.56pt, -228.37pt)
+ -- (55.56pt, -228.37pt)
+ -- (52.56pt, -228.37pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -250.81pt) -- (709.54pt, -250.81pt)
+ -- (709.54pt, -250.81pt)
+ -- (709.54pt, -228.37pt)
+ -- (709.54pt, -228.37pt)
+ -- (706.54pt, -228.37pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A* is opt}
+\put(149.5184,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(153.2211,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mal}
+\put(177.3207,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} wit}
+\put(201.4203,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h Admi}
+\put(247.4809,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ssi}
+\put(263.6643,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bl}
+\put(275.762,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e heur}
+\put(317.5293,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(321.232,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(332.9786,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(336.6813,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cs}
+\put(349.85,-274.11){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-306.51){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(55.56pt, -349.23pt) -- (706.54pt, -349.23pt)
+ -- (706.54pt, -349.23pt)
+ -- (706.54pt, -326.79pt)
+ -- (706.54pt, -326.79pt)
+ -- (55.56pt, -326.79pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}P}
+\put(65.98548,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(75.32208,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}O}
+\put(86.58984,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}P}
+\put(95.68704,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(104.1937,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(113.658,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(122.1647,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(126.9527,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(135.4594,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(143.599,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(147.9082,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}O}
+\put(159.2877,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}F}
+\put(167.3155,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(171.7365,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(181.6795,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}*}
+\put(190.7,-342.03){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(52.56pt, -326.79pt) -- (55.56pt, -326.79pt)
+ -- (55.56pt, -326.79pt)
+ -- (55.56pt, -323.79pt)
+ -- (55.56pt, -323.79pt)
+ -- (52.56pt, -323.79pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -326.79pt) -- (55.56pt, -326.79pt)
+ -- (55.56pt, -326.79pt)
+ -- (55.56pt, -323.79pt)
+ -- (55.56pt, -323.79pt)
+ -- (52.56pt, -323.79pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -326.79pt) -- (706.54pt, -326.79pt)
+ -- (706.54pt, -326.79pt)
+ -- (706.54pt, -323.79pt)
+ -- (706.54pt, -323.79pt)
+ -- (55.56pt, -323.79pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -326.79pt) -- (709.54pt, -326.79pt)
+ -- (709.54pt, -326.79pt)
+ -- (709.54pt, -323.79pt)
+ -- (709.54pt, -323.79pt)
+ -- (706.54pt, -323.79pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -326.79pt) -- (709.54pt, -326.79pt)
+ -- (709.54pt, -326.79pt)
+ -- (709.54pt, -323.79pt)
+ -- (709.54pt, -323.79pt)
+ -- (706.54pt, -323.79pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -352.23pt) -- (55.56pt, -352.23pt)
+ -- (55.56pt, -352.23pt)
+ -- (55.56pt, -349.23pt)
+ -- (55.56pt, -349.23pt)
+ -- (52.56pt, -349.23pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -352.23pt) -- (55.56pt, -352.23pt)
+ -- (55.56pt, -352.23pt)
+ -- (55.56pt, -349.23pt)
+ -- (55.56pt, -349.23pt)
+ -- (52.56pt, -349.23pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -352.23pt) -- (706.54pt, -352.23pt)
+ -- (706.54pt, -352.23pt)
+ -- (706.54pt, -349.23pt)
+ -- (706.54pt, -349.23pt)
+ -- (55.56pt, -349.23pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -352.23pt) -- (709.54pt, -352.23pt)
+ -- (709.54pt, -352.23pt)
+ -- (709.54pt, -349.23pt)
+ -- (709.54pt, -349.23pt)
+ -- (706.54pt, -349.23pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -352.23pt) -- (709.54pt, -352.23pt)
+ -- (709.54pt, -352.23pt)
+ -- (709.54pt, -349.23pt)
+ -- (709.54pt, -349.23pt)
+ -- (706.54pt, -349.23pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -349.23pt) -- (55.56pt, -349.23pt)
+ -- (55.56pt, -349.23pt)
+ -- (55.56pt, -326.79pt)
+ -- (55.56pt, -326.79pt)
+ -- (52.56pt, -326.79pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -349.23pt) -- (709.54pt, -349.23pt)
+ -- (709.54pt, -349.23pt)
+ -- (709.54pt, -326.79pt)
+ -- (709.54pt, -326.79pt)
+ -- (706.54pt, -326.79pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}UCS goe}
+\put(146.6456,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s in}
+\put(168.5906,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} ev}
+\put(187.4074,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}er}
+\put(200.8458,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y}
+\put(208.1554,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(211.8582,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}di}
+\put(223.9558,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(229.478,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ec}
+\put(244.1133,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(249.4918,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(253.1945,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}on f}
+\put(278.4911,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}or}
+\put(292.4083,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} s}
+\put(302.3513,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ear}
+\put(323.5782,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c}
+\put(330.409,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}hi}
+\put(342.5067,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ng}
+\put(358.4507,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}, but}
+\put(388.2002,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} A* w}
+\put(423.9666,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(427.6693,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(431.372,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(435.0747,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} chec}
+\put(468.4312,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}k}
+\put(475.7408,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} th}
+\put(493.1213,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e suc}
+\put(526.1106,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ce}
+\put(540.7459,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ss}
+\put(553.3224,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}or}
+\put(567.3513,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s th}
+\put(590.972,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}at}
+\put(604.0433,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} are}
+\put(628.7653,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} close}
+\put(665.4733,-372.39){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} to }
+\put(93.02,-394.98){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(98.39851,-394.98){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}he goa}
+\put(141.9374,-394.98){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(145.6401,-394.98){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}.}
+\put(149.66,-394.98){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-417.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Avoids ex}
+\put(154.6894,-417.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(160.068,-417.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(165.5901,-417.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}a sea}
+\put(198.8188,-417.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(204.341,-417.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c}
+\put(211.1719,-417.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}hes.}
+\put(237.89,-417.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A*}
+\put(110.18,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(113.78,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}expa}
+\put(144.7264,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}nds }
+\put(171.4754,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mai}
+\put(195.575,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}nl}
+\put(207.6727,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y toward th}
+\put(282.6528,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e goad}
+\put(326.3193,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}, }
+\put(333.9801,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}but}
+\put(356.1645,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} does hedg}
+\put(426.7077,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e it}
+\put(447.328,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s bets t}
+\put(494.1068,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}o ensu}
+\put(537.1669,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(542.689,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e }
+\put(554.3079,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}op}
+\put(571.2095,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(576.5881,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(580.2908,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mal}
+\put(604.3904,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(608.0931,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(613.4716,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y}
+\put(620.98,-449.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-482.34){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-514.76){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(55.56pt, -87.46002pt) -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}T}
+\put(65.50668,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(74.84328,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(79.743,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}V}
+\put(89.44669,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(94.23469,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}A}
+\put(104.1778,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}L}
+\put(111.7268,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\put(116.036,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}H}
+\put(126.6973,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}E}
+\put(135.3157,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}U}
+\put(146.3441,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(155.6807,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(160.4687,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(168.4966,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}T}
+\put(177.1149,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(181.9029,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(191.42,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -65.02002pt) -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -90.45999pt) -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -87.46002pt) -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (52.56pt, -65.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -87.46002pt) -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -120.94pt) -- (706.54pt, -120.94pt)
+ -- (706.54pt, -120.94pt)
+ -- (706.54pt, -98.5pt)
+ -- (706.54pt, -98.5pt)
+ -- (55.56pt, -98.5pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}D}
+\put(67.54956,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}O}
+\put(78.81732,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}M}
+\put(93.19728,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(97.98528,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}N}
+\put(109.1254,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(119.0685,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}N}
+\put(130.0968,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C}
+\put(139.4334,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(148.22,-113.62){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(52.56pt, -98.5pt) -- (55.56pt, -98.5pt)
+ -- (55.56pt, -98.5pt)
+ -- (55.56pt, -95.5pt)
+ -- (55.56pt, -95.5pt)
+ -- (52.56pt, -95.5pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -98.5pt) -- (55.56pt, -98.5pt)
+ -- (55.56pt, -98.5pt)
+ -- (55.56pt, -95.5pt)
+ -- (55.56pt, -95.5pt)
+ -- (52.56pt, -95.5pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -98.5pt) -- (706.54pt, -98.5pt)
+ -- (706.54pt, -98.5pt)
+ -- (706.54pt, -95.5pt)
+ -- (706.54pt, -95.5pt)
+ -- (55.56pt, -95.5pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -98.5pt) -- (709.54pt, -98.5pt)
+ -- (709.54pt, -98.5pt)
+ -- (709.54pt, -95.5pt)
+ -- (709.54pt, -95.5pt)
+ -- (706.54pt, -95.5pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -98.5pt) -- (709.54pt, -98.5pt)
+ -- (709.54pt, -98.5pt)
+ -- (709.54pt, -95.5pt)
+ -- (709.54pt, -95.5pt)
+ -- (706.54pt, -95.5pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -123.94pt) -- (55.56pt, -123.94pt)
+ -- (55.56pt, -123.94pt)
+ -- (55.56pt, -120.94pt)
+ -- (55.56pt, -120.94pt)
+ -- (52.56pt, -120.94pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -123.94pt) -- (55.56pt, -123.94pt)
+ -- (55.56pt, -123.94pt)
+ -- (55.56pt, -120.94pt)
+ -- (55.56pt, -120.94pt)
+ -- (52.56pt, -120.94pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -123.94pt) -- (706.54pt, -123.94pt)
+ -- (706.54pt, -123.94pt)
+ -- (706.54pt, -120.94pt)
+ -- (706.54pt, -120.94pt)
+ -- (55.56pt, -120.94pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -123.94pt) -- (709.54pt, -123.94pt)
+ -- (709.54pt, -123.94pt)
+ -- (709.54pt, -120.94pt)
+ -- (709.54pt, -120.94pt)
+ -- (706.54pt, -120.94pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -123.94pt) -- (709.54pt, -123.94pt)
+ -- (709.54pt, -123.94pt)
+ -- (709.54pt, -120.94pt)
+ -- (709.54pt, -120.94pt)
+ -- (706.54pt, -120.94pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -120.94pt) -- (55.56pt, -120.94pt)
+ -- (55.56pt, -120.94pt)
+ -- (55.56pt, -98.5pt)
+ -- (55.56pt, -98.5pt)
+ -- (52.56pt, -98.5pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -120.94pt) -- (709.54pt, -120.94pt)
+ -- (709.54pt, -120.94pt)
+ -- (709.54pt, -98.5pt)
+ -- (709.54pt, -98.5pt)
+ -- (706.54pt, -98.5pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-144.22){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Ha}
+\put(110.6398,-144.22){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} > hc}
+\put(140.884,-144.22){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} if}
+\put(153.26,-144.22){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Fo}
+\put(108.74,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(114.26,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(117.98,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}eve}
+\put(141.122,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(146.6441,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y n ha}
+\put(185.6344,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(n)}
+\put(203.6373,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(207.34,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}>}
+\put(215.3679,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}= hc(}
+\put(246.8091,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}n}
+\put(255.3158,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791})}
+\put(260.33,-176.65){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-209.17){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(55.56pt, -251.77pt) -- (706.54pt, -251.77pt)
+ -- (706.54pt, -251.77pt)
+ -- (706.54pt, -229.33pt)
+ -- (706.54pt, -229.33pt)
+ -- (55.56pt, -229.33pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H}
+\put(67.66128,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(76.16795,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}U}
+\put(87.19631,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(96.53291,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(101.4326,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(109.4605,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(117.9672,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(122.7552,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C}
+\put(131.9801,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(140.1197,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(144.4289,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}F}
+\put(152.5685,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}O}
+\put(163.948,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}R}
+\put(173.4122,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}M}
+\put(187.7922,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(192.1014,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(202.0445,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(206.4654,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}S}
+\put(214.4933,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(223.46,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}MI}
+\put(242.69,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}-}
+\put(248.33,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}L}
+\put(255.7514,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A}
+\put(265.6945,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(274.3129,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}T}
+\put(282.8195,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(287.7193,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}C}
+\put(296.9442,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}E}
+\put(305.4508,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}:}
+\put(310.73,-244.57){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_277009][even odd rule]
+(52.56pt, -229.33pt) -- (55.56pt, -229.33pt)
+ -- (55.56pt, -229.33pt)
+ -- (55.56pt, -226.33pt)
+ -- (55.56pt, -226.33pt)
+ -- (52.56pt, -226.33pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -229.33pt) -- (55.56pt, -229.33pt)
+ -- (55.56pt, -229.33pt)
+ -- (55.56pt, -226.33pt)
+ -- (55.56pt, -226.33pt)
+ -- (52.56pt, -226.33pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -229.33pt) -- (706.54pt, -229.33pt)
+ -- (706.54pt, -229.33pt)
+ -- (706.54pt, -226.33pt)
+ -- (706.54pt, -226.33pt)
+ -- (55.56pt, -226.33pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -229.33pt) -- (709.54pt, -229.33pt)
+ -- (709.54pt, -229.33pt)
+ -- (709.54pt, -226.33pt)
+ -- (709.54pt, -226.33pt)
+ -- (706.54pt, -226.33pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -229.33pt) -- (709.54pt, -229.33pt)
+ -- (709.54pt, -229.33pt)
+ -- (709.54pt, -226.33pt)
+ -- (709.54pt, -226.33pt)
+ -- (706.54pt, -226.33pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -254.77pt) -- (55.56pt, -254.77pt)
+ -- (55.56pt, -254.77pt)
+ -- (55.56pt, -251.77pt)
+ -- (55.56pt, -251.77pt)
+ -- (52.56pt, -251.77pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -254.77pt) -- (55.56pt, -254.77pt)
+ -- (55.56pt, -254.77pt)
+ -- (55.56pt, -251.77pt)
+ -- (55.56pt, -251.77pt)
+ -- (52.56pt, -251.77pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(55.56pt, -254.77pt) -- (706.54pt, -254.77pt)
+ -- (706.54pt, -254.77pt)
+ -- (706.54pt, -251.77pt)
+ -- (706.54pt, -251.77pt)
+ -- (55.56pt, -251.77pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -254.77pt) -- (709.54pt, -254.77pt)
+ -- (709.54pt, -254.77pt)
+ -- (709.54pt, -251.77pt)
+ -- (709.54pt, -251.77pt)
+ -- (706.54pt, -251.77pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -254.77pt) -- (709.54pt, -254.77pt)
+ -- (709.54pt, -254.77pt)
+ -- (709.54pt, -251.77pt)
+ -- (709.54pt, -251.77pt)
+ -- (706.54pt, -251.77pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(52.56pt, -251.77pt) -- (55.56pt, -251.77pt)
+ -- (55.56pt, -251.77pt)
+ -- (55.56pt, -229.33pt)
+ -- (55.56pt, -229.33pt)
+ -- (52.56pt, -229.33pt) -- cycle
+;
+\filldraw[color_277009][even odd rule]
+(706.54pt, -251.77pt) -- (709.54pt, -251.77pt)
+ -- (709.54pt, -251.77pt)
+ -- (709.54pt, -229.33pt)
+ -- (709.54pt, -229.33pt)
+ -- (706.54pt, -229.33pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Ma}
+\put(114.3585,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} of a}
+\put(142.5439,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}dmissi}
+\put(183.5611,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bl}
+\put(195.6588,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e heur}
+\put(237.4261,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(241.1288,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(252.7477,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(256.4504,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cs is ad}
+\put(302.6386,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}missi}
+\put(335.2609,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}bl}
+\put(347.3586,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e}
+\put(355.49,-275.07){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(129.02,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H(n) }
+\put(160.6846,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}max}
+\put(188.0241,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(ha(n}
+\put(222.2104,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}),}
+\put(230.9725,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} hb}
+\put(251.4811,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(n)}
+\put(269.4839,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791})}
+\put(274.49,-307.59){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(55.56pt, -350.19pt) -- (706.54pt, -350.19pt)
+ -- (706.54pt, -350.19pt)
+ -- (706.54pt, -327.75pt)
+ -- (706.54pt, -327.75pt)
+ -- (55.56pt, -327.75pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}G}
+\put(67.78896,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(77.12556,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}A}
+\put(87.19633,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}P}
+\put(96.18181,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}H}
+\put(106.8431,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\put(111.264,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(119.2919,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}E}
+\put(127.9103,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}A}
+\put(137.8534,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(147.3176,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(156.74,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}H}
+\put(167.54,-342.99){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(52.56pt, -327.75pt) -- (55.56pt, -327.75pt)
+ -- (55.56pt, -327.75pt)
+ -- (55.56pt, -324.75pt)
+ -- (55.56pt, -324.75pt)
+ -- (52.56pt, -324.75pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -327.75pt) -- (55.56pt, -327.75pt)
+ -- (55.56pt, -327.75pt)
+ -- (55.56pt, -324.75pt)
+ -- (55.56pt, -324.75pt)
+ -- (52.56pt, -324.75pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -327.75pt) -- (706.54pt, -327.75pt)
+ -- (706.54pt, -327.75pt)
+ -- (706.54pt, -324.75pt)
+ -- (706.54pt, -324.75pt)
+ -- (55.56pt, -324.75pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -327.75pt) -- (709.54pt, -327.75pt)
+ -- (709.54pt, -327.75pt)
+ -- (709.54pt, -324.75pt)
+ -- (709.54pt, -324.75pt)
+ -- (706.54pt, -324.75pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -327.75pt) -- (709.54pt, -327.75pt)
+ -- (709.54pt, -327.75pt)
+ -- (709.54pt, -324.75pt)
+ -- (709.54pt, -324.75pt)
+ -- (706.54pt, -324.75pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -353.19pt) -- (55.56pt, -353.19pt)
+ -- (55.56pt, -353.19pt)
+ -- (55.56pt, -350.19pt)
+ -- (55.56pt, -350.19pt)
+ -- (52.56pt, -350.19pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -353.19pt) -- (55.56pt, -353.19pt)
+ -- (55.56pt, -353.19pt)
+ -- (55.56pt, -350.19pt)
+ -- (55.56pt, -350.19pt)
+ -- (52.56pt, -350.19pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -353.19pt) -- (706.54pt, -353.19pt)
+ -- (706.54pt, -353.19pt)
+ -- (706.54pt, -350.19pt)
+ -- (706.54pt, -350.19pt)
+ -- (55.56pt, -350.19pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -353.19pt) -- (709.54pt, -353.19pt)
+ -- (709.54pt, -353.19pt)
+ -- (709.54pt, -350.19pt)
+ -- (709.54pt, -350.19pt)
+ -- (706.54pt, -350.19pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -353.19pt) -- (709.54pt, -353.19pt)
+ -- (709.54pt, -353.19pt)
+ -- (709.54pt, -350.19pt)
+ -- (709.54pt, -350.19pt)
+ -- (706.54pt, -350.19pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -350.19pt) -- (55.56pt, -350.19pt)
+ -- (55.56pt, -350.19pt)
+ -- (55.56pt, -327.75pt)
+ -- (55.56pt, -327.75pt)
+ -- (52.56pt, -327.75pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -350.19pt) -- (709.54pt, -350.19pt)
+ -- (709.54pt, -350.19pt)
+ -- (709.54pt, -327.75pt)
+ -- (709.54pt, -327.75pt)
+ -- (706.54pt, -327.75pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Fix}
+\put(111.0069,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}es the re}
+\put(167.5213,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}p}
+\put(176.028,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}eat}
+\put(197.0154,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ed}
+\put(213.4382,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} sta}
+\put(236.3408,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(241.7193,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}es c}
+\put(266.2019,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}an}
+\put(282.2737,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} cause}
+\put(322.9397,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} e}
+\put(334.5586,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}x}
+\put(341.5012,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ponent}
+\put(388.4076,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(392.1104,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}al}
+\put(403.4898,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(407.1926,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y m}
+\put(430.7176,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}or}
+\put(444.6347,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e }
+\put(456.2536,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}work pr}
+\put(506.5116,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}obl}
+\put(527.0202,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}em}
+\put(547.6565,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} in}
+\put(563.3611,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} tr}
+\put(577.9805,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ee}
+\put(593.8129,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} sea}
+\put(619.3648,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(624.887,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ch.}
+\put(644.62,-373.47){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-405.9){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Avoid t}
+\put(138.9688,-405.9){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}he loops.}
+\put(198.26,-405.9){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-438.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Neve}
+\put(126.3764,-438.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(131.9943,-438.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} expa}
+\put(166.5318,-438.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}nd a}
+\put(194.5894,-438.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} lo}
+\put(210.4058,-438.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}op t}
+\put(236.1972,-438.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}wice.}
+\put(270.17,-438.42){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(97.0898,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}f}
+\put(101.9895,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} al}
+\put(116.976,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(122.4981,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}eady expa}
+\put(188.2374,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}nde}
+\put(213.0551,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}d, upda}
+\put(261.8768,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(267.2553,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e the st}
+\put(315.7258,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}at}
+\put(328.797,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e if}
+\put(348.9385,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} nece}
+\put(383.4919,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ssa}
+\put(403.7611,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(409.2833,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}y.}
+\put(420.79,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(424.39,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(C}
+\put(437.8124,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}o}
+\put(446.3191,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}nsi}
+\put(464.6571,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(476.276,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ency}
+\put(506.5201,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791})}
+\put(511.51,-470.82){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}I}
+\put(97.0898,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(102.4683,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} is complet}
+\put(172.8998,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e and }
+\put(212.6083,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}opt}
+\put(234.7927,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(238.4954,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mal}
+\put(262.595,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}.}
+\put(266.69,-503.336){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\newpage
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(55.56pt, -87.46002pt) -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -87.46002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(57,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(66.22488,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}O}
+\put(77.49265,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}N}
+\put(88.63273,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(96.66061,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(101.4486,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(109.4765,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}T}
+\put(118.0949,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}E}
+\put(126.6016,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}N}
+\put(137.6299,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(146.9665,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}Y}
+\put(155.4732,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\put(159.8941,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}O}
+\put(171.1619,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}F}
+\put(179.3015,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\put(183.6107,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}H}
+\put(194.272,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}E}
+\put(202.8904,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}U}
+\put(213.9187,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}R}
+\put(223.2553,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(228.38,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(236.4079,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}T}
+\put(244.9146,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}I}
+\put(249.7025,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}C}
+\put(259.0392,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}S}
+\put(267.067,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006}:}
+\put(272.33,-80.26001){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_283006} }
+\end{picture}
+\begin{tikzpicture}[overlay]
+\path(0pt,0pt);
+\filldraw[color_255133][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -65.02002pt) -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt)
+ -- (52.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -65.02002pt) -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt)
+ -- (55.56pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -65.02002pt) -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (709.54pt, -62.02002pt)
+ -- (706.54pt, -62.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -90.45999pt) -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -90.45999pt)
+ -- (55.56pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt)
+ -- (52.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(55.56pt, -90.45999pt) -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -90.45999pt)
+ -- (706.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt)
+ -- (55.56pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -90.45999pt) -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -90.45999pt)
+ -- (709.54pt, -87.45996pt)
+ -- (709.54pt, -87.45996pt)
+ -- (706.54pt, -87.45996pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(52.56pt, -87.46002pt) -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -87.46002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (55.56pt, -65.02002pt)
+ -- (52.56pt, -65.02002pt) -- cycle
+;
+\filldraw[color_255133][even odd rule]
+(706.54pt, -87.46002pt) -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -87.46002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (709.54pt, -65.02002pt)
+ -- (706.54pt, -65.02002pt) -- cycle
+;
+\end{tikzpicture}
+\begin{picture}(-5,0)(2.5,0)
+\put(93.02,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Est}
+\put(112.4433,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(116.146,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}m}
+\put(128.9,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}at}
+\put(141.9712,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ed heur}
+\put(192.1335,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(195.8362,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(207.4551,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(211.1578,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c c}
+\put(228.2031,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}osts }
+\put(258.1919,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}<=}
+\put(274.0242,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} a}
+\put(285.4037,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ctua}
+\put(313.5891,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(317.2918,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} co}
+\put(336.0129,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(347.6317,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s}
+\put(354.05,-110.74){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Heurist}
+\put(140.1658,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(143.8685,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c “arc” c}
+\put(197.9729,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}os}
+\put(212.72,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(218.0985,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} <=}
+\put(237.5378,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} act}
+\put(260.9192,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ua}
+\put(276.9909,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(280.6936,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} co}
+\put(299.4147,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(311.0336,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} fo}
+\put(328.0629,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(333.6808,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} each ar}
+\put(384.9124,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}c}
+\put(391.97,-143.14){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(129.02,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H(a) }
+\put(159.86,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}–}
+\put(167.9,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(171.5,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h(c}
+\put(191.5298,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}) <}
+\put(207.9526,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}= c}
+\put(226.2907,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ost(}
+\put(251.2361,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A to C)}
+\put(295.01,-175.69){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Consequen}
+\put(165.7178,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ce}
+\put(180.3531,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}s}
+\put(186.6892,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} of c}
+\put(214.0287,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}onsi}
+\put(240.7777,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}st}
+\put(252.3965,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ency}
+\put(282.6407,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}:}
+\put(287.21,-208.09){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}Th}
+\put(109.2034,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}e f val}
+\put(147.8266,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ue of a}
+\put(192.3231,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(196.0258,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}on}
+\put(212.9275,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}g a}
+\put(231.7443,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} pa}
+\put(251.407,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}t}
+\put(256.7855,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h never}
+\put(305.7508,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} d}
+\put(317.8485,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}ec}
+\put(332.5955,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}r}
+\put(338.1177,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}eases}
+\put(374.45,-240.61){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(129.02,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}H(A)}
+\put(157.8278,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(161.5305,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}<=}
+\put(177.3628,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(181.0656,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}cost(A to}
+\put(239.3674,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} C}
+\put(251.5928,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}) +}
+\put(267.9199,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} h}
+\put(280.0176,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}(c}
+\put(291.5407,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791})}
+\put(296.57,-273.01){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(93.02,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}A* graph s}
+\put(161.2809,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}earc}
+\put(189.1152,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}h}
+\put(197.6218,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} w}
+\put(212.72,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}i}
+\put(216.4227,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(220.1254,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}l}
+\put(223.8281,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} be opti}
+\put(273.2563,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}mal}
+\put(297.3559,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791}.}
+\put(301.49,-305.55){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\put(57,-337.95){\fontsize{15.96}{1}\usefont{T1}{cmr}{m}{n}\selectfont\color{color_29791} }
+\end{picture}
+\end{document}
