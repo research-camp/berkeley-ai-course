@@ -1,8 +1,4 @@
-<h1 align="center">
-Berkeley AI Course
-</h1>
-
-<br />
+# Berkeley AI Course
 
 Notes that we took from Berkeley University AI course. Berkeley Unversity presents a course about basic artificial intelligence. In this course
 you will learn what is an Agent? How does an Agent work? Why do we need an Agent? 
